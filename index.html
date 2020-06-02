@@ -8,16 +8,22 @@
            border-radius: 0.5em;
            padding: 0.5em;
            position: absolute;
-           top: 50%;
+           top: 70%;
            left: 50%;
            margin-right: -50%;
            transform: translate(-50%, -50%) }
        div {
            background:  rgb(202, 200, 200);
-           width: 1000px;
+           width: 1200px;
            padding: 20px;
            margin: 0.5px;
-       }
+            }
+        div1 {
+            background:  rgb(202, 200, 200);
+           width: 500;
+           padding: 20px;
+           margin: 0.5px;
+        }
 
 
 
@@ -61,7 +67,7 @@
         <body>
             <section>
                 <h3><span style="background-color: black;"> How much do you know about me? </span></h3>
-                <form method="post" action="mailto:aayanchandra2006@gmail.com?subject=SAT Quiz 1" enctype="text/plain">
+                <form action="grade.php" method="post" id="quiz">
 
                 <b> GOOD LUCK!</b> 
                 <div> 
@@ -70,27 +76,84 @@
                     <label for="lname">Last name:</label><br>
                     <input type="text" id="lname" name="last name" value=""><br><br>
                     
-                <P>1. What is my name?<BR>
-                <input type="radio" name="1. What is my name?" value=" Ankit"> Ankit<BR>
-                <input type="radio" name="1. What is my name?" value=" nkit"> nkit<BR>
-                <input type="radio" name="1. What is my name?" value=" Akit"> Akit<BR>
-                <input type="radio" name="1. What is my name?" value=" kit"> kit<BR>
-                </p>
                 
-                <P>2. How many siblings do I have?<BR>
-                <input type="radio" name="2. How many siblings do I have?" value="0">0<BR>
-                <input type="radio" name="2. How many siblings do I have?" value="1">1<BR>
-                <input type="radio" name="2. How many siblings do I have?" value="2">2<BR>
-                <input type="radio" name="2. How many siblings do I have?" value="3">3<BR>
-                </p>
+
+                    <P>1. What is my name?<BR>
+                    
+                    <p>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) Ankit </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) nkit </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) Akit </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) kit</label>
+                    </p>
                 
-                <P>3. What school am I going to next year?<BR>
-                <input type="radio" name="3. What school am I going to next year?" value="Denmark">Denmark<BR>
-                <input type="radio" name="3. What school am I going to next year?" value="South Forsyth">South Forsyth<BR>
-                <input type="radio" name="3. What school am I going to next year?" value="West Forsyth">West Forsyth<BR>
-                <input type="radio" name="3. What school am I going to next year?" value="Alliance">Alliance<BR>
-                </p>
+                </li>
                 
+                <li>
+
+                    <P>2. How many siblings do I have?<BR>
+                    
+                    <p>
+                        <input type="radio" name="question-2-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) 0 </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-2-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) 1 </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-2-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) 2 </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-2-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) 3 </label>
+                    </p>
+                
+                </li>
+                
+                <li>
+
+                    <P>3. What school am I going to next year?<BR>
+                    
+                    <p>
+                        <input type="radio" name="question-3-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) Denmark </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-3-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) South Forsyth </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-3-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) West Forsyth </label>
+                    </p>
+                    
+                    <p>
+                        <input type="radio" name="question-3-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) Alliance </label>
+                    </p>
+                
+
+
                 <br>
                 <br>
                 <br>
